@@ -24,3 +24,28 @@
     text-decoration: none;
 }
 
+@media (max-width:562px) {
+
+
+.mq1 {
+
+        display: none;
+    }
+   
+.mq2 {
+     height: 350px;
+     width: 350px;
+ }
+      
+
+.mq3{
+   padding-left:50% ;
+   padding-right: 50%;
+}
+    
+}
+
+
+
+
+
