@@ -17,6 +17,7 @@
         background-position: 0% 50%;
     }
 }
+
 .custom-btn{
     width: 150px;
 }
@@ -24,7 +25,16 @@
     text-decoration: none;
 }
 
-@media (max-width:562px) {
+
+@media (max-width: 600px) {
+
+     html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+    }
 
 
 .mq1 {
@@ -44,6 +54,23 @@
 }
     
 }
+
+
+@media (max-width: 1200px) {
+html,body {
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden; 
+    }
+}
+
+
+
+
+
+
 
 
 
